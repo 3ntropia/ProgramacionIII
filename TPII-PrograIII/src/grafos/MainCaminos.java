@@ -1,4 +1,4 @@
-package Grafos;
+package grafos;
 
 import Implementaciones.Grafo;
 import Implementaciones.Vector;

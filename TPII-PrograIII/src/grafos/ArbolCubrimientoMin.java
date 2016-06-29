@@ -1,4 +1,4 @@
-package Grafos;
+package grafos;
 
 import Implementaciones.ColaPrioridad;
 import Implementaciones.Conjunto;

@@ -1,4 +1,4 @@
-package Mochila;
+package mochila;
 
 import Implementaciones.ColaPrioridad;
 import Implementaciones.Vector;

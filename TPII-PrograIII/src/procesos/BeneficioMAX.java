@@ -1,4 +1,4 @@
-package Procesos;
+package procesos;
 
 import Implementaciones.ColaPrioridad;
 import Implementaciones.Vector;

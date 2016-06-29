@@ -1,4 +1,4 @@
-package Greedy;
+package greedy;
 
 import Implementaciones.Vector;
 import TDA.VectorTDA;

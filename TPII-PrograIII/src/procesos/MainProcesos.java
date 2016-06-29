@@ -1,4 +1,4 @@
-package Procesos;
+package procesos;
 
 import Implementaciones.Vector;
 import TDA.VectorTDA;
