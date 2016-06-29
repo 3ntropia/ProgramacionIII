@@ -1,4 +1,4 @@
-package Mayoritario;
+package mayoritario;
 import TDA.VectorTDA;
 import Implementaciones.Vector;;
 

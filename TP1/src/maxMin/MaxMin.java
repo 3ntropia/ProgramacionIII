@@ -1,9 +1,9 @@
-package Max_min;
+package maxMin;
 
 import Implementaciones.Vector;
 import TDA.VectorTDA;
 
-public class max_min {
+public class MaxMin {
 	public static VectorTDA<Integer> determinar(VectorTDA <Integer>v,int inicio,int fin) throws Exception{
 		VectorTDA <Integer> resultado=new Vector <Integer>();
 		resultado.inicializarVector(2);

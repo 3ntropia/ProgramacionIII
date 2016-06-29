@@ -1,10 +1,10 @@
-package Mayoritario;
+package mayoritario;
 import java.util.Random;
 import TDA.VectorTDA;
 import Implementaciones.Vector;
 import java.util.Date;
 
-public class Principal3 {
+public class MainMayoritario {
 	
 	public static void main(String[] args)throws Exception{
 		int mayoritario=0;

@@ -1,4 +1,4 @@
-package Alfabeticamente;
+package alfabeticamente;
 
 import TDA.VectorTDA;
 

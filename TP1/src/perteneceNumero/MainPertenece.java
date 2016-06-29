@@ -3,7 +3,7 @@ package perteneceNumero;
 import Implementaciones.Vector;
 import TDA.VectorTDA;
 
-public class Principal5 {
+public class MainPertenece {
 	public static void main(String[] args) {
 		int valor=10;
 		boolean prueba;

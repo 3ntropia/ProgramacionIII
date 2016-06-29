@@ -1,11 +1,11 @@
-package Max_min;
+package maxMin;
 
 import java.util.Random;
 
 import Implementaciones.Vector;
 import TDA.VectorTDA;
 
-public class Principal {
+public class ManMaxMin {
 
 	
 	public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Principal {
 			}
 		}
 		try {
-			nuevo=max_min.determinar(nuevo, 0, valor-1);
+			nuevo=MaxMin.determinar(nuevo, 0, valor-1);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
