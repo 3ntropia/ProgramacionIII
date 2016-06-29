@@ -1,25 +1,25 @@
 package matrices;
 
-
-
 import Implementaciones.Matriz;
 import TDA.MatrizTDA;
 
+/**
+ * @author martinh
+ *
+ */
 public class MainStrasser {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		MatrizTDA <Integer> m1=new Matriz<Integer>();
-		MatrizTDA <Integer> m2=new Matriz<Integer>();
+		MatrizTDA<Integer> m1 = new Matriz<Integer>();
+		MatrizTDA<Integer> m2 = new Matriz<Integer>();
 		m1.inicializarMatriz(20);
 		m2.inicializarMatriz(20);
-		for(int i=0;i<10;i++)
-		{
-			for(int j=0;j<20;j++)
-			{
-				int aleatorio = (int)(Math.random()*100);
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 20; j++) {
+				int aleatorio = (int) (Math.random() * 100);
 				m1.setearValor(i, j, aleatorio);
 				m2.setearValor(i, j, aleatorio);
 			}

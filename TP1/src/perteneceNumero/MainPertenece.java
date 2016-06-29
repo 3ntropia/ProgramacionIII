@@ -3,13 +3,17 @@ package perteneceNumero;
 import Implementaciones.Vector;
 import TDA.VectorTDA;
 
+/**
+ * @author martinh
+ *
+ */
 public class MainPertenece {
 	public static void main(String[] args) {
-		int valor=10;
+		int valor = 10;
 		boolean prueba;
-		VectorTDA <Integer> nuevo=new Vector<Integer>();
+		VectorTDA<Integer> nuevo = new Vector<Integer>();
 		nuevo.inicializarVector(valor);
-		for(int i=0;i<valor;i++){
+		for (int i = 0; i < valor; i++) {
 			try {
 				nuevo.agregarElemento(i, i);
 			} catch (Exception e) {
@@ -17,8 +21,8 @@ public class MainPertenece {
 			}
 		}
 		try {
-			prueba=Pertenece.pertenece(nuevo, 0, valor-1, 11);
-			if(prueba)
+			prueba = Pertenece.pertenece(nuevo, 0, valor - 1, 11);
+			if (prueba)
 				System.out.println("El numero pertenece");
 			else
 				System.out.println("El numero no pertenece");
