@@ -9,12 +9,15 @@ import TDA.GrafoTDA;
 import TDA.VectorTDA;
 import auxiliares.Par;
 
-/*
+/**
+ * 
  * PRIM elijo un vertice al azar, despues busco todas las aritas de los
  * adyancentes y elegimos la menor vuelvo a actualizar y elijo el vertice de la
  * arista de menor peso. Agrego las aristas de ese vertice. Vuelvo a hacer todo
  * esto....
  * 
+ * @author martinh
+ *
  */
 public class ArbolCubrimientoMin {
 	GrafoTDA<Integer> Prim(GrafoTDA<Integer> g) {
@@ -46,8 +49,8 @@ public class ArbolCubrimientoMin {
 				c_aux.agregar(v_aux);
 				if (resultado.Adyacentes(v_aux).conjuntoVacio()
 						// esta unido a los vertices que tngo
-						&& (mejorP == -1 || mejorP > resultado.PesoArista(v_aux, resultado.Adyacentes(v_aux).elegir())))
-				{
+						&& (mejorP == -1
+								|| mejorP > resultado.PesoArista(v_aux, resultado.Adyacentes(v_aux).elegir()))) {
 					mejorV = v_aux;
 					mejorP = resultado.PesoArista(v_aux, resultado.Adyacentes(v_aux).elegir());
 				}
@@ -62,7 +65,8 @@ public class ArbolCubrimientoMin {
 					if (!resultado.ExisteArista(resultado.Adyacentes(v_aux).elegir(), v_aux)) {
 						resultado.AgregarArista(mejorV, v_aux, g.PesoArista(mejorV, v_aux));
 					} else {
-						if (g.PesoArista(mejorV, v_aux) < resultado.PesoArista(resultado.Adyacentes(v_aux).elegir(), v_aux)) {
+						if (g.PesoArista(mejorV, v_aux) < resultado.PesoArista(resultado.Adyacentes(v_aux).elegir(),
+								v_aux)) {
 							resultado.EliminarArista(v_aux, g.Adyacentes(v_aux).elegir());
 							resultado.AgregarArista(v_aux, mejorV, mejorP);
 						}
