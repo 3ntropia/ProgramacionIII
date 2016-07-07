@@ -3,6 +3,7 @@ package alfabeticamente;
 import TDA.VectorTDA;
 
 /**
+ * Determinar si una secuencia de n caracteres está ordenada alfabéticamente.
  * @author martinh
  *
  */

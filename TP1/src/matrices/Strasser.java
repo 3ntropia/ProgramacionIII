@@ -4,6 +4,7 @@ import Implementaciones.Matriz;
 import TDA.MatrizTDA;
 
 /**
+ * Dadas dos matrices cuadradas M1 y M2  de nxn, calcular el producto de ambas, donde n es una potencia de 2.
  * @author martinh
  *
  */

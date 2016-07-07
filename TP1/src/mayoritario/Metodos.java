@@ -4,6 +4,9 @@ import TDA.VectorTDA;
 import Implementaciones.Vector;;
 
 /**
+ * Dado un vector A de números enteros, calcular elemento mayoritario. 
+ * Si se tiene un vector A de n enteros, un elemento x se denomina mayoritario de A si x aparece
+ * en el vector A más de n/2 veces. Considerar que no puede haber más de un elemento mayoritario.
  * @author martinh
  *
  */

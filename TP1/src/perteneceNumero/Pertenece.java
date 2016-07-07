@@ -3,6 +3,7 @@ package perteneceNumero;
 import TDA.VectorTDA;
 
 /**
+ * Dado un vector de n números naturales ordenados crecientemente, determinar si un número x  dado pertenece al vector.
  * @author martinh
  *
  */
