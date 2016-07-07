@@ -20,11 +20,14 @@ Mientras pendientes tenga nodo
       
 Vale aclarar que en este caso se trabajo sin cota superior.
 
-#Costo. 
+##Costo. 
 El costo en cuanto orden para el peor de los casos es de o (n^4)  este va a estar dado por la cantidad de nodos hijos que se generen. La cantidad de hijos va a ir variando según la cantidad de adyacentes que tenga un punto, para casos muy extremos puede llegar a ser un solo hijo. 
 En lo que respecta a orden espacial, va a estar dado por la etapa del árbol en la que se esté. Para el peor de los casos puede ser un árbol cuaternario completo. Este sería si no se puede ramificar ni podar nada. 
 
-#Ventaja. 
+##Ventaja. 
 Ofrece una solución cuando la mayoría de los planteos no llegan a una. 
-#Desventaja.
+##Desventaja.
 La gran desventaja de este tipo de solución es el tiempo que puede llegar a demandar debido a su orden de tiempo. 
+
+##Libreria
+>https://dl.dropboxusercontent.com/u/79252417/Bck/mapa.jar
