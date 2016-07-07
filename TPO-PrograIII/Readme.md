@@ -1,3 +1,4 @@
+#Consigna
 Desarrollo de un algoritmo heurístico para la determinación en tiempo real del camino de mínimo costo entre dos puntos cualesquiera definidos como origen – destino, dentro de un marco de referencia. Contemplando la representación visual en la implementación.
 Resolución. 
 
