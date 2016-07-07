@@ -8,6 +8,11 @@ import TDA.MatrizTDA;
 import TDA.VectorTDA;
 
 /**
+ * Problema de la Mochila: Se tienen n objetos y una mochila. Para i = 1, 2,..n, el objeto i tiene un peso positivo
+ * pi y un valor positivo vi. La mochila puede llevar un peso que no sobrepase P. Los objetos no pueden ser fraccionados.
+ * El objetivo es llenar la mochila de manera tal que se maximice el valor de los objetos transportados,
+ * respetando la limitación de capacidad impuesta. El algoritmo debe determinar el valor máximo que se podrá cargar. 
+ * 
  * @author martinh
  *
  */

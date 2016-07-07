@@ -6,6 +6,10 @@ import TDA.MatrizTDA;
 import TDA.VectorTDA;
 
 /**
+ * Caminos mínimos entre todas las ciudades. Dado un conjunto de n ciudades de una región y la distancia entre cada
+ * par de ciudades vecinas si es que existe (ciudades unidas por una ruta directa sin ciudades intermedias),
+ * encontrar el costo del camino mínimo entre cada par de ellas.  
+ * 
  * @author martinh
  *
  */

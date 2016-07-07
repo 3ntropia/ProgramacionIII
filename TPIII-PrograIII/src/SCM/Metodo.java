@@ -5,6 +5,13 @@ import TDA.MatrizTDA;
 import TDA.VectorTDA;
 
 /**
+ * Problema de la subsecuencia más larga: Dada una secuencia X={x1 x2 ... xm}, decimos que Z={z1 z2 ... zk}
+ *  es una subsecuencia de X (siendo k < m) si existe una secuencia creciente {i1 i2 ... ik} de índices de X
+ *   tales que para todo j = 1, 2, ..., k tenemos xij = zj.
+ *   Por ejemplo, Z={BCDB} es una subsecuencia de X={ABCBDAB} con la correspondiente secuencia de índices {2,3,5,7}.
+ *   Dadas dos secuencias X e Y, decimos que Z es una subsecuencia común de X e Y si es subsecuencia de X y subsecuencia de Y.
+ *   Se desea encontrar la longitud de la subsecuencia de longitud máxima común a dos secuencias dadas. 
+ * 
  * @author martinh
  *
  */
