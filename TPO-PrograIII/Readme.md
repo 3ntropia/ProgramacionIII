@@ -1,11 +1,12 @@
 #Consigna
 Desarrollo de un algoritmo heurístico para la determinación en tiempo real del camino de mínimo costo entre dos puntos cualesquiera definidos como origen – destino, dentro de un marco de referencia. Contemplando la representación visual en la implementación.
-Resolución. 
+
+##Resolución. 
+
+>https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_A*
 
 El método utilizado para el desarrollo del problema es el de Ramificación y poda o Branch and Bound del ingles, se aplica mayoritariamente para resolver cuestiones o problemas de optimización. La técnica de Ramificación y poda se suele interpretar como un árbol de soluciones, donde cada rama nos lleva a una posible solución posterior a la actual. La característica de esta técnica con respecto a otras anteriores (y a la que debe su nombre) es que el algoritmo se encarga de detectar en qué ramificación las soluciones dadas ya no están siendo óptimas, para «podar» esa rama del árbol y no continuar malgastando recursos y procesos en casos que se alejan de la solución óptima.
 La estructura de la Ramificación y poda es la siguiente para el caso es la siguiente:  
-
->https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_A*
 
 Creo nodo raíz
 Actualizo cota
