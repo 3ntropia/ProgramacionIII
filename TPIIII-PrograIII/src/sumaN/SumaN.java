@@ -3,6 +3,8 @@ package sumaN;
 import TDA.VectorTDA;
 
 /**
+ * Suma de subconjuntos: Dados n números positivos distintos, se desea encontrar todas las combinaciones
+ * de esos números tal que la suma sea M. 
  * @author martinh
  *
  */

@@ -5,6 +5,9 @@ import TDA.MatrizTDA;
 import TDA.VectorTDA;
 
 /**
+ * Ocho reinas: Construir un algoritmo que ubique ocho reinas en un tablero de ajedrez de
+ * modo tal queno se puedan capturar entre sí
+ * 
  * @author martinh
  *
  */
