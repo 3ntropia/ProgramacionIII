@@ -6,6 +6,11 @@ import TDA.ColaPrioridadTDA;
 import TDA.VectorTDA;
 
 /**
+ * Planificación de tareas con plazo fijo: Se deben procesar n tareas en un único procesador.
+ * Cada tarea se procesa en una unidad de tiempo y debe ser ejecutada en un plazo no superior a  ti.
+ * La tarea i produce una ganancia gi > 0 si se procesa en un instante anterior a ti.
+ * Una solución es factible si existe al menos una  secuencia S de tareas que se ejecuten antes de sus respectivos plazos.
+ * 
  * @author martinh
  *
  */

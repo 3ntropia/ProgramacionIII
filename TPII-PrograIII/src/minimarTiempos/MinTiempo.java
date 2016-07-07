@@ -6,6 +6,11 @@ import TDA.ColaPrioridadTDA;
 import TDA.VectorTDA;
 
 /**
+ * Minimizar tiempo de espera: Un procesador debe atender n procesos.
+ * Se conoce de antemano el tiempo que necesita cada uno de ellos.
+ * Determinar en qué orden el procesador debe atender dichos procesos para minimizar la suma
+ * del tiempo que los procesos están en el sistema. 
+ * 
  * @author martinh
  *
  */
