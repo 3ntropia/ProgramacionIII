@@ -5,6 +5,8 @@ Resolución.
 El método utilizado para el desarrollo del problema es el de Ramificación y poda o Branch and Bound del ingles, se aplica mayoritariamente para resolver cuestiones o problemas de optimización. La técnica de Ramificación y poda se suele interpretar como un árbol de soluciones, donde cada rama nos lleva a una posible solución posterior a la actual. La característica de esta técnica con respecto a otras anteriores (y a la que debe su nombre) es que el algoritmo se encarga de detectar en qué ramificación las soluciones dadas ya no están siendo óptimas, para «podar» esa rama del árbol y no continuar malgastando recursos y procesos en casos que se alejan de la solución óptima.
 La estructura de la Ramificación y poda es la siguiente para el caso es la siguiente:  
 
+>https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_A*
+
 Creo nodo raíz
 Actualizo cota
 Agrego raíz a pendientes
@@ -31,3 +33,4 @@ La gran desventaja de este tipo de solución es el tiempo que puede llegar a dem
 
 ##Libreria
 >https://dl.dropboxusercontent.com/u/79252417/Bck/mapa.jar
+>https://dl.dropboxusercontent.com/u/79252417/Bck/prograIII_j1.5.jar
